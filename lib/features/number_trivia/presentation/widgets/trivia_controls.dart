@@ -45,6 +45,12 @@ class _TriviaControlsState extends State<TriviaControls> {
               ),
             ),
             SizedBox(width: 10),
+            Expanded(
+              child: RaisedButton(
+                child: Text('Get random trivia'),
+                onPressed: dispatchRandom,
+              ),
+            ),
           ],
         )
       ],
@@ -54,7 +60,11 @@ class _TriviaControlsState extends State<TriviaControls> {
   void dispatchConcrete() {
     controller.clear();
     BlocProvider.of<NumberTriviaBloc>(context)
-        .dispatch(GetTriviaForConcreteNumber(inputStr));
+        .add(GetTriviaForConcreteNumber(inputStr));
   }
 
+  void dispatchRandom() {
+    controller.clear();
+    BlocProvider.of<NumberTriviaBloc>(context).add(GetTriviaForRandomNumber());
+  }
 }
