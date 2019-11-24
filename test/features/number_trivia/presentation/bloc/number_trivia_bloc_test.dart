@@ -78,7 +78,7 @@ void main() {
       },
     );
 
-    /* test(
+    test(
       'should get data from the concrete use case',
       () async {
         // arrange
@@ -106,7 +106,7 @@ void main() {
           Loading(),
           Loaded(trivia: tNumberTrivia),
         ];
-        expectLater(bloc.state, emitsInOrder(expected));
+        expectLater(bloc, emitsInOrder(expected));
         // act
         bloc.add(GetTriviaForConcreteNumber(tNumberString));
       },
@@ -125,7 +125,7 @@ void main() {
           Loading(),
           Error(message: SERVER_FAILURE_MESSAGE),
         ];
-        expectLater(bloc.state, emitsInOrder(expected));
+        expectLater(bloc, emitsInOrder(expected));
         // act
         bloc.add(GetTriviaForConcreteNumber(tNumberString));
       },
@@ -144,7 +144,7 @@ void main() {
           Loading(),
           Error(message: CACHE_FAILURE_MESSAGE),
         ];
-        expectLater(bloc.state, emitsInOrder(expected));
+        expectLater(bloc, emitsInOrder(expected));
         // act
         bloc.add(GetTriviaForConcreteNumber(tNumberString));
       },
@@ -180,7 +180,7 @@ void main() {
           Loading(),
           Loaded(trivia: tNumberTrivia),
         ];
-        expectLater(bloc.state, emitsInOrder(expected));
+        expectLater(bloc, emitsInOrder(expected));
         // act
         bloc.add(GetTriviaForRandomNumber());
       },
@@ -198,7 +198,7 @@ void main() {
           Loading(),
           Error(message: SERVER_FAILURE_MESSAGE),
         ];
-        expectLater(bloc.state, emitsInOrder(expected));
+        expectLater(bloc, emitsInOrder(expected));
         // act
         bloc.add(GetTriviaForRandomNumber());
       },
@@ -216,10 +216,10 @@ void main() {
           Loading(),
           Error(message: CACHE_FAILURE_MESSAGE),
         ];
-        expectLater(bloc.state, emitsInOrder(expected));
+        expectLater(bloc, emitsInOrder(expected));
         // act
         bloc.add(GetTriviaForRandomNumber());
       },
-    ); */
+    );
   });
 }
