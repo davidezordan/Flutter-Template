@@ -44,3 +44,11 @@ Flutter: Flutter 1.9.1+hotfix.6
 ## Clean Architecture Flutter Diagram
 
 ![Clean Architecture Flutter Diagram](images/Clean-Architecture-Flutter-Diagram.png)
+
+## References
+
+- https://resocoder.com/blog/
+- https://resocoder.com/flutter-clean-architecture-tdd
+- https://www.youtube.com/watch?v=dc3B_mMrZ-Q&feature=share
+
+- https://resocoder.com/2019/10/26/flutter-bloc-library-tutorial-1-0-0-stable-reactive-state-management/
