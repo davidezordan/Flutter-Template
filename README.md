@@ -1,6 +1,6 @@
 # flutter_tdd
 
-A new Flutter project.
+A new Flutter project based on Clean Architecture and TDD principles.
 
 ## Getting Started
 
