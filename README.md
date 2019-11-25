@@ -21,8 +21,10 @@ samples, guidance on mobile development, and a full API reference.
 
 ---
 
-**Version:**
+**Packages Version:**
+
 Dart: 2.5.0
+
 Flutter: Flutter 1.9.1+hotfix.6
 
 - For state management -> Bloc: flutter_bloc 2.0.1
@@ -31,6 +33,7 @@ Flutter: Flutter 1.9.1+hotfix.6
 - For functional programming -> dartz: 0.8.8
 - For remote API -> data_connection_checker: 0.3.4 and http 0.12.0+2
 - For local cache -> shared_preferences 0.5.4+5
+- For unit testing -> mockito 4.1.1
 
 ---
 
