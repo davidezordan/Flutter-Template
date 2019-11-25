@@ -2,9 +2,7 @@
 
 A new Flutter project based on Clean Architecture and TDD principles.
 
-:iphone:
-
-:man_technologist:
+:iphone: :man_technologist:
 
 ## Getting Started
 
