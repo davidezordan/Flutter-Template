@@ -3,23 +3,20 @@ import 'package:flutter_tdd/features/number_trivia/presentation/bloc/number_triv
 import 'package:flutter_tdd/features/number_trivia/presentation/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_focus_watcher/flutter_focus_watcher.dart';
 
 import '../../../../injection_container.dart';
 
 class NumberTriviaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return FocusWatcher(
-        child: Scaffold(
+    return Scaffold(
       appBar: AppBar(
         title: Text('Number Trivia'),
       ),
       body: SingleChildScrollView(
         child: buildBody(context),
       ),
-      resizeToAvoidBottomInset: false,
-    ));
+    );
   }
 
   BlocProvider<NumberTriviaBloc> buildBody(BuildContext context) {

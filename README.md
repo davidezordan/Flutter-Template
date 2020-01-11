@@ -2,8 +2,6 @@
 
 A new Flutter project based on Clean Architecture and TDD principles.
 
-Calling Numbers Trivia API: http://numbersapi.com/
-
 :iphone: :man_technologist:
 
 ## Getting Started
@@ -29,7 +27,7 @@ Flutter: Flutter 1.9.1+hotfix.6
 
 - For state management -> Bloc: flutter_bloc 2.0.1
 - For service locator -> get_it 3.0.3
-- For equality -> equatable 1.0.1
+- For equality -> equatable 1.0.0
 - For functional programming -> dartz: 0.8.8
 - For remote API -> data_connection_checker: 0.3.4 and http 0.12.0+2
 - For local cache -> shared_preferences 0.5.4+5
