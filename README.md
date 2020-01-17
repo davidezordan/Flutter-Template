@@ -1,4 +1,4 @@
-# flutter_tdd and modularisation
+# flutter_tdd and architecture composition using custom packages
 
 A new Flutter project based on Clean Architecture and TDD principles.
 
