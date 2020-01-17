@@ -33,6 +33,10 @@ Flutter: Flutter v1.12.13+hotfix.5
 - For local cache -> shared_preferences 0.5.6
 - For unit testing -> mockito 4.1.1
 
+
+Custom packages
+- For common flutter_tdd functions/utilities -> core: 1.0.0+1 (unpublished)
+
 ---
 
 ## Clean Architecture Diagram
