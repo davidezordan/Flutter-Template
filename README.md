@@ -1,4 +1,4 @@
-# flutter_tdd
+# flutter_tdd and modularisation
 
 A new Flutter project based on Clean Architecture and TDD principles.
 
@@ -42,6 +42,10 @@ Flutter: Flutter v1.12.13+hotfix.5
 ## Clean Architecture Flutter Diagram
 
 ![Clean Architecture Flutter Diagram](images/Clean-Architecture-Flutter-Diagram.png)
+
+## Create Dart/Flutter package
+- https://dart.dev/guides/libraries/create-library-packages
+- https://dart.dev/guides/packages
 
 ## References
 
