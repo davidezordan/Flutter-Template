@@ -1,4 +1,4 @@
-import 'package:james_playground/services/logger.dart';
+import 'package:services/logger.dart';
 
 ///A tool to retrieve any instance of the apps registered services
 ///

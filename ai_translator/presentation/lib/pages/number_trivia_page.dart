@@ -1,10 +1,9 @@
-import 'package:flutter_tdd/features/number_trivia/presentation/bloc/bloc.dart';
-import 'package:flutter_tdd/features/number_trivia/presentation/bloc/number_trivia_bloc.dart';
-import 'package:flutter_tdd/features/number_trivia/presentation/widgets/widgets.dart';
+import 'package:presentation/bloc/number_trivia_bloc.dart';
+import 'package:presentation/bloc/number_trivia_state.dart';
+import 'package:presentation/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_focus_watcher/flutter_focus_watcher.dart';
-import '../../../../injection_container.dart';
 
 class NumberTriviaPage extends StatelessWidget {
   @override
@@ -23,7 +22,7 @@ class NumberTriviaPage extends StatelessWidget {
 
   BlocProvider<NumberTriviaBloc> buildBody(BuildContext context) {
     return BlocProvider(
-      create: (_) => sl<NumberTriviaBloc>(),
+      create: (_) => NumberTriviaBloc(),
       child: Center(
         child: Padding(
           padding: const EdgeInsets.all(10),
