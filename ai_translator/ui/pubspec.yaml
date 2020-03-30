@@ -1,5 +1,5 @@
-name: common
-description: This package is specifically for common functionality that can be shared accross the project
+name: ui
+description: Here we should encapsulate all code associated with user interfaces.
 version: 0.0.1
 author:
 homepage:
