@@ -1,6 +1,7 @@
-import 'package:services/logger.dart';
+import 'package:common/common.dart';
+import 'package:services/services/test_service.dart';
 
-///A tool to retrieve any instance of the apps registered services
+/// A tool to retrieve any instance of the apps registered services
 ///
 /// The service locator pattern is a relatively old pattern that was very popular
 /// with Java EE. Martin Fowler described it in 2004 on his blog. The goal of
@@ -12,10 +13,14 @@ import 'package:services/logger.dart';
 abstract class ServiceLocator{
   static Map _serviceMap;
 
-  /// retrieves or creates an instance of a registered type [T] depending on the
-  /// registration
+  /// retrieves an instance object of type [T].
+  ///
+  /// This method also incorporates the lazy-initialisation of the service
+  /// locator.
+  /// Throws an [ArgumentError] if you try to access a class that has
+  /// not been registered.
   static T get<T>() {
-    if(_serviceMap == null){ //todo: be clever and make this lazy later
+    if(_serviceMap == null){
       _initialiseServices();
     }
     if(!_serviceMap.containsKey(T.toString())){
@@ -26,11 +31,11 @@ abstract class ServiceLocator{
   }
 
   //register a new instance.
-  static void _registerSingleton<T>(T instance) {
+  static void _registerService<T>(T instance) {
     try {
       _serviceMap[T.toString()] = instance;
     } on Exception catch(e){
-      Logger.log('exception whilst adding service to service map: $e');
+      Logger.logInformative('exception whilst adding service to service map: $e');
     }
   }
 
@@ -42,5 +47,6 @@ abstract class ServiceLocator{
     Logger.logDebug('Initialising the service locator');
     _serviceMap = Map();
     Logger.logDebug('Registering internal services');
+    _registerService<TestService>(new TestServiceImpl());
   }
 }

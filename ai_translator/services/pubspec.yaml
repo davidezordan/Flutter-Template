@@ -1,5 +1,5 @@
 name: services
-description: This is the service project.
+description: This is the services project.
 version: 0.0.1
 author:
 homepage:
@@ -8,6 +8,12 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  common:
+    path: "../../common"
+  networking:
+    path: "../../networking"
+  resources:
+    path: "../../resources"
   flutter:
     sdk: flutter
 
