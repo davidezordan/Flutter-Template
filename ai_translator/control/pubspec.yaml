@@ -8,6 +8,8 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  infrastructure:
+    path: '../../infrastructure'
   services:
     path: '../services'
   scoped_model: ^1.0.1

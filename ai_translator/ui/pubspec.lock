@@ -46,14 +46,14 @@ packages:
   common:
     dependency: transitive
     description:
-      path: "../../common"
+      path: "..\\..\\common"
       relative: true
     source: path
     version: "0.0.1"
   control:
     dependency: "direct main"
     description:
-      path: "../control"
+      path: "..\\control"
       relative: true
     source: path
     version: "0.0.1"
@@ -105,7 +105,7 @@ packages:
   networking:
     dependency: transitive
     description:
-      path: "../../networking"
+      path: "..\\..\\networking"
       relative: true
     source: path
     version: "0.0.1"
@@ -140,7 +140,7 @@ packages:
   resources:
     dependency: transitive
     description:
-      path: "../../resources"
+      path: "..\\..\\resources"
       relative: true
     source: path
     version: "0.0.1"
@@ -154,7 +154,7 @@ packages:
   services:
     dependency: transitive
     description:
-      path: "../services"
+      path: "..\\services"
       relative: true
     source: path
     version: "0.0.1"
