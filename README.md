@@ -1,4 +1,4 @@
-# BP Clean Architecture Mobile Implementation
+# BP Clean Architecture Mobile - Flutter Implementation
 
 Clean architecture is a fantastic way to look at designing and developing scalable and maintainable software.
 
@@ -18,7 +18,9 @@ ScopedModel => 1.0.1 (UI & Control) for MVVM.
 ---
 
 ## BP - Clean Architecture Diagram
-<img src="https://i.imgur.com/nxLW9lk.png" width="250" height="250">
+<center><img src="https://i.imgur.com/nxLW9lk.png" width="450" height="450"></center>
+
+C
 
 
 ## References
