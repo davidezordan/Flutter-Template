@@ -43,6 +43,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.14.11"
+  common:
+    dependency: transitive
+    description:
+      path: "../../common"
+      relative: true
+    source: path
+    version: "0.0.1"
   control:
     dependency: transitive
     description:
@@ -102,6 +109,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.8"
+  networking:
+    dependency: transitive
+    description:
+      path: "../../networking"
+      relative: true
+    source: path
+    version: "0.0.1"
   path:
     dependency: transitive
     description:
@@ -130,6 +144,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.5"
+  resources:
+    dependency: transitive
+    description:
+      path: "../../resources"
+      relative: true
+    source: path
+    version: "0.0.1"
+  scoped_model:
+    dependency: transitive
+    description:
+      name: scoped_model
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
+  services:
+    dependency: transitive
+    description:
+      path: "../services"
+      relative: true
+    source: path
+    version: "0.0.1"
   sky_engine:
     dependency: transitive
     description: flutter

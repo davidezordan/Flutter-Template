@@ -10,7 +10,7 @@ abstract class TestService{
 /// The implementation of the [TestService] interface as a class.
 class TestServiceImpl implements TestService{
   String getHelloWorld() {
-    Logger.logDebug("HelloWorld Test", this.runtimeType);
+    Logger.logDebug("Retrieving Hello World text.", this.runtimeType);
     return "H3ll0 W0rld";
   }
 }

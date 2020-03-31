@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui/views/main_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.green.shade800,
         accentColor: Colors.green.shade600,
       ),
-      home: NumberTriviaPage(),
+      home: new MainPage(),
     );
   }
 }

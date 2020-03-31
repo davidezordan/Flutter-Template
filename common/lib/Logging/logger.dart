@@ -25,12 +25,13 @@ abstract class Logger {
   ///Writes a log message to the console and to a log file.
   static void log(String message, [LogLevel logLevel = LogLevel.DEBUG, Type sender]){
     var dt = new DateTime.now();
+    var timeFormatted = "${dt.hour}:${dt.minute}:${dt.second}";
     String fullMessage;
     var senderString = sender.toString();
-    if(sender.toString() == "") {
-      fullMessage = '[$AppName] [$dt] [$logLevel] - $message';
+    if(sender.toString() == "" || sender == null) {
+      fullMessage = '[$AppName] [$timeFormatted] [$logLevel] $message';
     } else{
-      fullMessage = '[$AppName] [$senderString] [$dt] [$logLevel] - $message';
+      fullMessage = '[$AppName] [$timeFormatted] [$logLevel] [$senderString] $message';
     }
     if(logLevel == LogLevel.DEBUG && kReleaseMode){
       return;
