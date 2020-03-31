@@ -19,7 +19,7 @@ ScopedModel => 1.0.1 (UI & Control) for MVVM.
 
 ## BP - Clean Architecture Diagram
 
-![BP - Clean Architecture](https://i.imgur.com/nxLW9lk.png)
+![BP - Clean Architecture](https://i.imgur.com/nxLW9lk.png = 250x250)
 
 ## References
 Clean Architecture - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
