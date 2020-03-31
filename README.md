@@ -12,21 +12,14 @@ Dart: 2.7.0
 
 Flutter: Flutter v1.12.13+hotfix.5
 
-- For state management -> Bloc: flutter_bloc 3.1.0
+Plugins:
+ScopedModel => 1.0.1 (UI & Control) for MVVM.
 
 ---
 
-## Clean Architecture Diagram
+## BP - Clean Architecture Diagram
 
-![Clean Architecture](images/CleanArchitecture.jpg)
-
-## Clean Architecture Flutter Diagram
-
-![Clean Architecture Flutter Diagram](images/Clean-Architecture-Flutter-Diagram.png)
-
-## Create Dart/Flutter package
-- https://dart.dev/guides/libraries/create-library-packages
-- https://dart.dev/guides/packages
+![BP - Clean Architecture](https://i.imgur.com/nxLW9lk.png)
 
 ## References
-
+Clean Architecture - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
