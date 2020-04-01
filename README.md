@@ -21,11 +21,14 @@ ScopedModel => 1.0.1 (UI & Control & Infrastructure) for MVVM.
 ## Getting Started
 ### Installing the Android SDK
 You need to install the Android SDK in order to be able to deploy the application to Android devices and simulators.
+
 **Windows**
+
 [Here](https://flutter.dev/docs/get-started/install/windows#android-setup) is a perfect guide on how to install the
 android SDK on your windows machine and configure it correctly with flutter.
 
 **Mac OS X**
+
 [Here](https://flutter.dev/docs/get-started/install/macos#android-setup) is a perfect guide on how to install the
 android SDK on your mac os x machine and configure it correctly with flutter.
 
