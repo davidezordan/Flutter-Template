@@ -30,7 +30,7 @@ android SDK on your windows machine and configure it correctly with flutter.
 android SDK on your mac os x machine and configure it correctly with flutter.
 
 ### Installing XCode & iOS SDK (Mac only)
-[Here] (https://flutter.dev/docs/get-started/install/macos#android-setup) is a perfect guide to installing and
+[Here](https://flutter.dev/docs/get-started/install/macos#android-setup) is a perfect guide to installing and
 configuring XCode and the iOS SDK & Simulators.
 
 ### Installing Flutter
