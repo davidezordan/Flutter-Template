@@ -1,4 +1,4 @@
-import 'package:control/view_models/view_model_base.dart';
+import 'package:infrastructure/ViewModels/view_model_base.dart';
 import 'package:services/services.dart';
 
 class MainViewModel extends ViewModelBase {
