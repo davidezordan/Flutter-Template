@@ -1,5 +1,5 @@
 name: infrastructure
-description: This package is specifically for common functionality that can be shared accross the project
+description: This package contains classes for infrastructure related to MVVM implementation
 version: 0.0.1
 author:
 homepage:
