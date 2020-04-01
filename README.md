@@ -17,10 +17,8 @@ ScopedModel => 1.0.1 (UI & Control) for MVVM.
 
 ---
 
-## BP - Clean Architecture Diagram
-<center><img src="https://i.imgur.com/nxLW9lk.png" width="450" height="450"></center>
+## Getting Started
 
-C
 
 
 ## References
