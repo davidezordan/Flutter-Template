@@ -1,4 +1,4 @@
 library services;
 
 export 'service_locator.dart';
-export 'services/test_service.dart';
+export 'services/helloworld_service.dart';
