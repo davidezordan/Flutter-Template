@@ -6,3 +6,4 @@
 ( cd common && flutter pub get )
 ( cd networking && flutter pub get )
 ( cd resources && flutter pub get )
+( cd infrastructure && flutter pub get )

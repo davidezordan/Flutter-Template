@@ -1,5 +1,5 @@
 import 'package:common/common.dart';
-import 'package:services/services/test_service.dart';
+import 'package:services/services/helloworld_service.dart';
 
 /// A tool to retrieve any instance of the apps registered services
 ///
@@ -47,6 +47,6 @@ abstract class ServiceLocator{
     Logger.logDebug('Initialising the service locator');
     _serviceMap = Map();
     Logger.logDebug('Registering internal services');
-    _registerService<TestService>(new TestServiceImpl());
+    _registerService<HelloWorldService>(new HelloWorldServiceImpl());
   }
 }

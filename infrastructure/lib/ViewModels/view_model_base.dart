@@ -1,5 +1,5 @@
 import 'package:scoped_model/scoped_model.dart';
 
-class ViewModelBase extends Model{
+class ViewModelBase extends Model {
 
 }
