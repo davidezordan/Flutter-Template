@@ -1,20 +1,19 @@
-# BP Clean Architecture Mobile - Flutter Implementation
+# Clean Architecture Mobile - Flutter Implementation
 
 [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) is a fantastic way to
 look at designing and developing scalable and maintainable software. However, Clean Architecture is very broad and 
-often confusing to implement due to how broad it is in specific scenarios. At BP we have adapted the Clean Architecture
-proposition in order to make it easier to understand for mobile developers.
+often confusing to implement due to how broad it is in specific scenarios.
 
 ---
 
 **Packages Version:**
 
-Dart: 2.7.0
+Dart: 2.14.0-178.0.dev
 
-Flutter: Flutter v1.12.13+hotfix.5
+Flutter: 2.3.0-17.0.pre.191
 
 Plugins:
-ScopedModel => 1.0.1 (UI & Control & Infrastructure) for MVVM.
+ScopedModel => 1.1.0 (UI & Control & Infrastructure) for MVVM.
 
 ---
 
@@ -59,7 +58,7 @@ Once you have successfully cloned the repository it's time to set up your enviro
 1. Open your repository in your chosen IDE. (On opening you may see some errors, do not worry.)
 2. Open the terminal
 3. Navigate inside of the terminal to the cloned directory. It will look like this:
-`cd Desktop/Flutter-Template-BP`
+`cd Desktop/Flutter-Template`
 4. Once you have successfully navigated there you must run the following command to allow the execution of a script I
 wrote to download all of the necessary packages.
 `chmod +x get_packages.sh`
@@ -77,15 +76,6 @@ wrote to download all of the necessary packages.
 Most IDEs will instantly offer the option at the top of the window to run the template application in a simulator.
 However, starting a new technology or using a new IDE can often be overwhelming. [Here](https://flutter.dev/docs/get-started/test-drive?tab=androidstudio)
 is a guide tailored to IntelliJ, VSCode, Android Studio and simply using a terminal/cmd.
-
-## Documentation
-I wanted to thoroughly document the application, principles and clean architecture. Here is a list of accessible relevant
-documents.
-
-- [Documentation Overview](./docs/README.md)
-- [BP Clean Architecture](./docs/architecture.md)
-- [The Problem](./docs/the_problem.md)
-- [The Proposed Solution](./docs/the_solution.md)
 
 ## References
 Clean Architecture - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
