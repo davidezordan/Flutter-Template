@@ -1,5 +1,7 @@
 # Clean Architecture Mobile - Flutter Implementation
 
+[![Build-and-Release Actions Status](https://github.com/davidezordan/Flutter-Template/workflows/android/badge.svg)](https://github.com/davidezordan/Flutter-Template/actions)
+
 [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) is a fantastic way to
 look at designing and developing scalable and maintainable software. However, Clean Architecture is very broad and 
 often confusing to implement due to how broad it is in specific scenarios.
