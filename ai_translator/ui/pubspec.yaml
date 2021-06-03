@@ -10,7 +10,7 @@ environment:
 dependencies:
   control:
     path: '../control'
-  scoped_model: ^1.0.1
+  scoped_model: ^1.1.0
   flutter:
     sdk: flutter
 
