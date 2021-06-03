@@ -21,14 +21,19 @@ jobs:
         uses: subosito/flutter-action@v1
         with:
           channel: "stable"
+      #- name: Install pub Dependencies
+      #  run: flutter pub get
       - name: Install pub Dependencies
-        run: flutter pub get
+        run: get_packages.sh
       - name: Run Tests
         run: flutter test
       - name: Build Android App
-        run: flutter build apk --split-per-abi
+        run: |
+          cd myapp/app
+          flutter build apk --split-per-abi
       - name: Build iOS App
         run: |
+          cd myapp/app
           flutter build ios --no-codesign
           cd build/ios/iphoneos
           mkdir Payload
@@ -38,6 +43,7 @@ jobs:
           zip -r app.ipa Payload
       - name: Build Web App
         run: |
+          cd myapp/app
           flutter build web
           cd build/web
           zip -r web-app.zip .
