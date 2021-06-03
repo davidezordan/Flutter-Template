@@ -1,4 +1,4 @@
-cd .\ai_translator\app
+cd .\myapp\app
 call flutter pub get
 
 cd ..\services

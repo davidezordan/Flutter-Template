@@ -11,10 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Number Trivia',
+      title: 'Flutter template',
       theme: ThemeData(
-        primaryColor: Colors.green.shade800,
-        accentColor: Colors.green.shade600,
+        primaryColor: Colors.blue.shade800,
+        accentColor: Colors.blue.shade600,
       ),
       home: new MainPage(),
     );

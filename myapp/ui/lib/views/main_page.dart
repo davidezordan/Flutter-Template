@@ -35,7 +35,7 @@ class _MainPageState extends State<MainPage> {
           appBar: AppBar(
             // Here we take the value from the MyHomePage object that was created by
             // the App.build method, and use it to set our appbar title.
-            title: Text("test"),
+            title: Text("Flutter template sample"),
           ),
           body: Center(
             // Center is a layout widget. It takes a single child and positions it
@@ -58,9 +58,7 @@ class _MainPageState extends State<MainPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 ScopedModelDescendant<MainViewModel>(
-                  builder: (context, _, model) => Text(
-                    model.textToDisplay
-                  ),
+                  builder: (context, _, model) => Text(model.textToDisplay),
                 )
               ],
             ),
@@ -70,7 +68,6 @@ class _MainPageState extends State<MainPage> {
             tooltip: 'Change the text',
             child: Icon(Icons.radio),
           ),
-        )
-    );
+        ));
   }
 }
