@@ -24,7 +24,7 @@ jobs:
       #- name: Install pub Dependencies
       #  run: flutter pub get
       - name: Install pub Dependencies
-        run: get_packages.sh
+        run: ./get_packages.sh
       - name: Run Tests
         run: flutter test
       - name: Build Android App
