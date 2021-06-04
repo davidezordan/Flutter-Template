@@ -26,12 +26,12 @@ You need to install the Android SDK in order to be able to deploy the applicatio
 **Windows**
 
 [Here](https://flutter.dev/docs/get-started/install/windows#android-setup) is a perfect guide on how to install the
-android SDK on your windows machine and configure it correctly with flutter.
+Android SDK on your windows machine and configure it correctly with flutter.
 
 **Mac OS X**
 
 [Here](https://flutter.dev/docs/get-started/install/macos#android-setup) is a perfect guide on how to install the
-android SDK on your mac os x machine and configure it correctly with flutter.
+Android SDK on your mac os x machine and configure it correctly with flutter.
 
 ### Installing XCode & iOS SDK (Mac only)
 [Here](https://flutter.dev/docs/get-started/install/macos#android-setup) is a perfect guide to installing and
@@ -41,17 +41,10 @@ configuring XCode and the iOS SDK & Simulators.
 You need to install the Flutter SDK by following [this](https://flutter.dev/docs/get-started/install) guide.
 
 ### Choosing an IDE
-Secondly, as a developer you need to choose an IDE (Integrated Developer Environment) that you feel comfortable
-developing in. I personally use [IntelliJ](https://www.jetbrains.com/idea/) accompanied with the Flutter plugin for
-development. I am more than happy to discuss my reasoning why at any given opportunity. That being said here are some
-other favourable environments that are used in Flutter mobile application development.
+Some IDEs for Flutter mobile application development:
 
 - [VS Code](https://code.visualstudio.com/)
 - [Android Studio](https://developer.android.com/studio)
-
-### Cloning this repository
-If you are viewing this document you have successfully managed to access this template via ADO. Simply click the clone
-button on the top of this window and follow the instructions to clone this repository to your desktop or another folder.
 
 ### Setting up
 Once you have successfully cloned the repository it's time to set up your environment.
